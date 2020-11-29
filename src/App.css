@@ -1,10 +1,18 @@
 .App {
   text-align: center;
+  font-family: 'Nunito';
 }
+.top-nav li{
+  display: inline;
+  text-transform: uppercase;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+}
+.nav-item a{
+  text-decoration: none;
+  border-color: darkolivegreen;
+  padding: 20px;
+  width: 20px;
+  color: teal;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -35,4 +43,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  padding: 15px;
+  font-family: 'Nunito';
 }

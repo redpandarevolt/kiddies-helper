@@ -1,0 +1,18 @@
+Mentors.body {
+    font-family: 'Nunito';
+}
+Mentors.box{
+    align-items: center;
+}
+
+.Mentors h1{
+    text-align: center;
+}
+
+.Mentors h2{
+    text-align: center;
+}
+
+.Mentors searchbox{
+    align-items: center;
+}
