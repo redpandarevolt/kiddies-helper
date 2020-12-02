@@ -1,7 +1,7 @@
 import './mentors.styles.css';
 import React, { Component } from 'react';
-import { CardList } from './components/card-list.components';
-import { SearchBox } from './components/search-box.components';
+import { CardList } from '../../components/card-list.components';
+import { SearchBox } from '../../components/search-box.components';
 
 
 class Mentors extends Component {
