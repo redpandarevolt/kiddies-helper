@@ -1,10 +1,14 @@
-Mentors.search {
+input.search {
     -webkit-appearance: none;
-    border: 13px;
+    border: 2px solid gray;
+    border-radius: 10px;
     outline: none;
     padding: 10px;
-    width: 150px;
+    width: 225px;
     line-height: 30px;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 30px;
     justify-content: center;
+    display: block;
 }

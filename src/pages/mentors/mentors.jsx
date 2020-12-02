@@ -12,6 +12,8 @@ class Mentors extends Component {
             minions: [],
             searchField: ''
         };
+
+        this.handleChange = this.handleChange.bind(this);
     }
 
     componentDidMount() {
@@ -19,8 +21,10 @@ class Mentors extends Component {
             .then(response => response.json())
             .then(users => this.setState({ minions: users }));
     }
+
     handleChange(e) {
         this.setState({searchField: e.target.value})
+
     }
 
     render() {
