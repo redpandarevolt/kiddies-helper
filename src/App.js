@@ -5,10 +5,11 @@ import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import Home from './pages/home/home';
 import Mentors from "./pages/mentors/mentors";
 import MentorConnect from "./pages/mentor-connect/mentor-connect";
-import SignInOrSignUpPage from "./pages/sing-in-or-up/sign-in-or-up";
-import Profile from "./pages/profile/profile";
+import Header from './components/header/header.component';
 
-import { auth } from './firebase/firebase.utils';
+import SignInOrSignUpPage from "./pages/sing-in-or-up/sign-in-or-up";
+import { auth, createUserProfileDocument } from './firebase/firebase.utils';
+import Profile from "./pages/profile/profile";
 
 import './App.css';
 
@@ -24,10 +25,20 @@ class App extends React.Component  {
     unsubscribeFromAuth = null
 
     componentDidMount() {
-        this.unsubscribeFromAuth = auth.onAuthStateChanged( user => {
-            this.setState({ currentUser: user});
+        this.unsubscribeFromAuth = auth.onAuthStateChanged( async userAuth => {
+            if(userAuth) {
+                const userRef = await createUserProfileDocument(userAuth);
 
-            console.log(user);
+                userRef.onSnapshot(snapshot => {
+                    this.setState({
+                        currentUser: {
+                            id: snapshot.id,
+                            ...snapshot.data()
+                        }
+                    });
+                });
+            }
+            this.setState({currentUser: userAuth});
         });
     }
 
@@ -38,27 +49,13 @@ class App extends React.Component  {
     render() {
         return (
             <Router>
-                <div currentUser={this.state.currentUser}>
-                    <nav className='top-nav'>
-                        <ul className='nav-titles'>
-                            <li className='nav-item'> <Link to="/">KH</Link></li>
-                            <li className='nav-item'> <Link to="/"> Home</Link></li>
-                            <li className='nav-item'> <Link to="/mentor-connect">Mentors Connect</Link></li>
-                            <li className='nav-item' ><Link to="/mentors">Mentors</Link></li>
-                            <li className='nav-item' ><Link to="/profile">Profiles</Link></li>
-                            <li className='nav-item' ><Link to="/sign-in">Sign In</Link></li>
-                        </ul>
-                    </nav>
-
-                    <Switch>
-                        <Route path='/sign-in'><SignInOrSignUpPage /></Route>
-                        <Route path='/profile'><Profile /></Route>
-                        <Route path='/mentor-connect'><MentorConnect /></Route>
-                        <Route path='/'><Home /></Route>
-
-                    </Switch>
-
-                </div>
+                <Header currentUser={this.state.currentUser} />
+                        <Switch>
+                            <Route path='/sign-in'><SignInOrSignUpPage /></Route>
+                            <Route path='/mentors'><Mentors /></Route>
+                            <Route path='/mentor-connect'><MentorConnect /></Route>
+                            <Route path='/'><Home /></Route>
+                        </Switch>
             </Router>
         );
     }
