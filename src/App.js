@@ -9,7 +9,6 @@ import Header from './components/header/header.component';
 
 import SignInOrSignUpPage from "./pages/sing-in-or-up/sign-in-or-up";
 import { auth, createUserProfileDocument } from './firebase/firebase.utils';
-import Profile from "./pages/profile/profile";
 
 import './App.css';
 
@@ -36,6 +35,7 @@ class App extends React.Component  {
                             ...snapshot.data()
                         }
                     });
+                    console.log(this.state)
                 });
             }
             this.setState({currentUser: userAuth});
