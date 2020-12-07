@@ -12,6 +12,8 @@ import { auth, createUserProfileDocument } from './firebase/firebase.utils';
 
 import './App.css';
 
+//insert test comment to see if pushes are going through to github
+
 class App extends React.Component  {
     constructor(props) {
         super(props);
