@@ -6,6 +6,7 @@ import Home from './pages/home/home';
 import Mentors from "./pages/mentors/mentors";
 import MentorConnect from "./pages/mentor-connect/mentor-connect";
 import Header from './components/header/header.component';
+import Room from './pages/rooms/rooms';
 
 import SignInOrSignUpPage from "./pages/sing-in-or-up/sign-in-or-up";
 import { auth, createUserProfileDocument } from './firebase/firebase.utils';

@@ -2,6 +2,7 @@
 body {
   padding: 15px;
   font-family: 'Nunito';
+  background-color: white;
 }
 
 .top-nav li{
@@ -14,7 +15,7 @@ body {
   border-color: darkolivegreen;
   padding: 20px;
   width: 20px;
-  color: teal;
+  color: #0a2a66;
 }
 
 * {

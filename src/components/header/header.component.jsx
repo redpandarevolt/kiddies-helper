@@ -9,7 +9,7 @@ const Header = ({currentUser}) => (
         <ul className='nav-titles'>
             <li className='nav-item'> <Link to="/">KH</Link></li>
             <li className='nav-item'> <Link to="/"> Home</Link></li>
-            <li className='nav-item'> <Link to="/mentor-connect">Mentors Connect</Link></li>
+            <li className='nav-item'> <Link to="/mentor-connect">Mentor Connect</Link></li>
             <li className='nav-item' ><Link to="/mentors">Mentors</Link></li>
             <li className='nav-item' ><Link to="/mentors">Profiles</Link></li>
             {currentUser ? (
