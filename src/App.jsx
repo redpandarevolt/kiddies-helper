@@ -6,7 +6,7 @@ import Home from './pages/home/home';
 import Mentors from "./pages/mentors/mentors";
 import MentorConnect from "./pages/mentor-connect/mentor-connect";
 import Header from './components/header/header.component';
-import Room from './pages/rooms/rooms';
+
 
 import SignInOrSignUpPage from "./pages/sing-in-or-up/sign-in-or-up";
 import { auth, createUserProfileDocument } from './firebase/firebase.utils';
@@ -14,6 +14,10 @@ import { auth, createUserProfileDocument } from './firebase/firebase.utils';
 import './App.css';
 
 //insert test comment to see if pushes are going through to github
+console.log(process.env.REACT_APP_TWILIO_ACCOUNT_SID);
+console.log(process.env.REACT_APP_TWILIO_API_KEY);
+console.log(process.env.REACT_APP_TWILIO_API_SECRET);
+
 
 class App extends React.Component  {
     constructor(props) {

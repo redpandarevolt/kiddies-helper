@@ -1,6 +1,6 @@
 input.search {
     -webkit-appearance: none;
-    border: 2px solid gray;
+    border: 2px solid #EAAA00;
     border-radius: 10px;
     outline: none;
     padding: 10px;
@@ -11,4 +11,5 @@ input.search {
     margin-bottom: 30px;
     justify-content: center;
     display: block;
+    font-size: 20px;
 }

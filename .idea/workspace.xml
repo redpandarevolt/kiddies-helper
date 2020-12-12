@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ebb3f766-93ef-4f8b-88ca-34e6e552ef1b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/tokens.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/lobby/Lobby.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/participant/Participant.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/participant/Participant.styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/room/room.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/video-chat/VideoChat.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/video-chat/VideoChat.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/serviceWorker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/card-list.components.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/card-list/card-list.components.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/card-list.styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/card-list/card-list.styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/card.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/card-component/card.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/card.styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/card-component/card.styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/search-box.components.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/search-box/search-box.components.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/search-box.styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/search-box/search-box.styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/home.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/home.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/mentor-connect/mentor-connect.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/mentor-connect/mentor-connect.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/mentor-connect/mentor-connect.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/mentor-connect/mentor-connect.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/mentors/mentors.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/mentors/mentors.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/mentors/mentors.styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/mentors/mentors.styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/rooms/rooms.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/rooms/rooms.styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/lobby/Lobby.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/twilio-video-react-hooks/.env.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/twilio-video-react-hooks/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/twilio-video-react-hooks/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/twilio-video-react-hooks/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/twilio-video-react-hooks/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/twilio-video-react-hooks/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twilio-video-react-hooks/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/twilio-video-react-hooks/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twilio-video-react-hooks/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/twilio-video-react-hooks/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/twilio-video-react-hooks/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/twilio-video-react-hooks/server/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/twilio-video-react-hooks/server/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/twilio-video-react-hooks/server/tokens.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/twilio-video-react-hooks/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/twilio-video-react-hooks/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/twilio-video-react-hooks/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/twilio-video-react-hooks/src/Lobby.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/twilio-video-react-hooks/src/Participant.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/twilio-video-react-hooks/src/Room.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/twilio-video-react-hooks/src/VideoChat.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/twilio-video-react-hooks/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/twilio-video-react-hooks/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/twilio-video-react-hooks/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/twilio-video-react-hooks/src/serviceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-call-serverless/functions/video-token.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1kl7FLQ0Xw3M3m3whyAWZ5dHv0M" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/components/search-box" />
+      <recent name="$PROJECT_DIR$/src/components/card-list" />
+      <recent name="$PROJECT_DIR$/src/components/card-component" />
+      <recent name="$PROJECT_DIR$/src/components/video-chat" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ebb3f766-93ef-4f8b-88ca-34e6e552ef1b" name="Default Changelist" comment="" />
+      <created>1606263219340</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606263219340</updated>
+      <workItem from="1606263220425" duration="13602000" />
+      <workItem from="1606358996331" duration="1660000" />
+      <workItem from="1606532020447" duration="4575000" />
+      <workItem from="1606615123117" duration="5086000" />
+      <workItem from="1606881863821" duration="10874000" />
+      <workItem from="1607130873199" duration="3256000" />
+      <workItem from="1607198735079" duration="19720000" />
+      <workItem from="1607380651619" duration="14751000" />
+      <workItem from="1607453174170" duration="30347000" />
+      <workItem from="1607500215454" duration="377000" />
+      <workItem from="1607502962673" duration="852000" />
+      <workItem from="1607503999710" duration="48000" />
+      <workItem from="1607504111664" duration="270000" />
+      <workItem from="1607744755218" duration="4795000" />
+      <workItem from="1607751073075" duration="15740000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1660" y="500" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607398069899">
+      <screen x="0" y="23" width="2560" height="1338" />
+    </state>
+    <state x="1660" y="500" key="#com.intellij.fileTypes.FileTypeChooser/0.23.2560.1338@0.23.2560.1338" timestamp="1607398069899" />
+    <state x="1222" y="446" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607753613756">
+      <screen x="0" y="23" width="2560" height="1338" />
+    </state>
+    <state x="1222" y="446" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.2560.1338@0.23.2560.1338" timestamp="1607753613756" />
+    <state x="1342" y="23" width="1006" height="817" key="dock-window-1" timestamp="1607751930721">
+      <screen x="0" y="23" width="2560" height="1338" />
+    </state>
+    <state x="1342" y="23" width="1006" height="817" key="dock-window-1/0.23.2560.1338@0.23.2560.1338" timestamp="1607751930721" />
+    <state x="807" y="305" key="run.anything.popup" timestamp="1607461249471">
+      <screen x="0" y="23" width="2560" height="1338" />
+    </state>
+    <state x="807" y="305" key="run.anything.popup/0.23.2560.1338@0.23.2560.1338" timestamp="1607461249471" />
+    <state x="251" y="315" width="670" height="676" key="search.everywhere.popup" timestamp="1607763400015">
+      <screen x="0" y="23" width="2560" height="1338" />
+    </state>
+    <state x="251" y="315" width="670" height="676" key="search.everywhere.popup/0.23.2560.1338@0.23.2560.1338" timestamp="1607763400015" />
+  </component>
+</project>

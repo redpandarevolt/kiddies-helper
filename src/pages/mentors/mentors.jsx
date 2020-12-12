@@ -1,7 +1,7 @@
 import './mentors.styles.css';
 import React, { Component } from 'react';
-import { CardList } from '../../components/card-list.components';
-import { SearchBox } from '../../components/search-box.components';
+import { CardList } from '../../components/card-list/card-list.components';
+import { SearchBox } from '../../components/search-box/search-box.components';
 
 
 class Mentors extends Component {
@@ -36,8 +36,8 @@ class Mentors extends Component {
 
         return (
             <div className='Mentors'>
-                <h2>Kiddies Helper</h2>
-                <h1>Mentors</h1>
+
+                <h1>Meet Some of Our Mentors</h1>
                 <SearchBox
                     placeholder='search minions'
                     handleChange={this.handleChange}
